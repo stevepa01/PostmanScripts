@@ -1,0 +1,6 @@
+curl --location --request POST 'auth_url/auth/realms/master/protocol/openid-connect/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Basic YWRtaW4tY2xpOg==' \
+--data-urlencode 'username=username' \
+--data-urlencode 'password=password' \
+--data-urlencode 'grant_type=password'

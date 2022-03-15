@@ -1,7 +1,8 @@
-POST {{auth-url}}/auth/realms/stevep/protocol/openid-connect/token
+POST {{auth-url}}/auth/admin/steveprealm/console/
 Content-Type: application/x-www-form-urlencoded
 
-client_id=admin-cli
+client_id=security-admin-console
 &username={{username}}
 &password={{password}}
 &grant_type=password
+&bearer={{access_token}}

@@ -1,0 +1,7 @@
+POST {{auth-url}}/auth/realms/stevep/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=admin-cli
+&username={{username}}
+&password={{password}}
+&grant_type=password

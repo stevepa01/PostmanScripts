@@ -1,0 +1,2 @@
+GET {{auth-url}}/auth/realms/backbase/.well-known/openid-configuration
+Origin: steve.com
